@@ -1,0 +1,28 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-size: 1em;
+  font-family: Trebuchet MS, Helvetica, Sans-Serif;
+  margin: 5% 10%; }
+
+p {
+  margin: 2% auto; }
+
+.pictures {
+  text-align: center; }
+  .pictures img {
+    border: 1px solid gray;
+    padding: .25em;
+    background-color: silver; }
+
+.codeSnippet {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #0C0;
+  background-color: #333;
+  font-family: "Courier";
+  font-size: 1.25em;
+  font-weight: bolder;
+  padding: .75em; }

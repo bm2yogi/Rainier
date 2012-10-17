@@ -1,0 +1,34 @@
+POST https://connect.gettyimages.com/v1/session/CreateSession HTTP/1.1
+User-Agent: Fiddler
+Content-Type: application/json
+Host: connect.gettyimages.com
+Content-Length: 335
+
+{
+    "RequestHeader": {
+        "Token": null,
+        "Detail": null,
+        "CoordinationId": null
+    },
+    "CreateSessionRequestBody": {
+        "SystemId": "9999",
+        "SystemPassword": "8da++YMJzWX4RXCJYgf1DJN0PuLPcGnBuWFcjHiIBl0=",
+        "UserName": "qaterms",
+        "UserPassword": "Pa55word"
+    }
+}
+
+
+HTTP/1.1 200 OK
+Date: Fri, 29 Jun 2012 15:27:49 GMT
+Content-Length: 740
+Content-Type: application/json; charset=utf-8
+Cache-Control: private,no-cache
+Access-Control-Allow-Methods: OPTIONS, POST
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Content-Type, Accept
+Access-Control-Allow-Origin: *
+Set-Cookie: SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Connection: close
+
+{"ResponseHeader":{"Status":"success","StatusList":[],"CoordinationId":null},"CreateSessionResult":{"SecureToken":"n6ynzrI5VLCo1FxtGKt31Oy+\/GjwCkIDwXoFeEe+eWgc0OggTEy\/5tkjyUGdPjg11XYpJUCu1HzlWjEt8lXkwLEakiUkzYoP4XK43fN3P3jwsxz\/QqVj7EqxrEEP5D7kPExx\/mo5xX4dlehjIaOz8gQrDD9gbj8UvVHEwSuaGP8=|77u\/U0kzajNEcXN2SkNiN0hWMFpaT1kKOTk5OQoxMTQ0ODk2CjlWclBBZz09Ci9XSFBBZz09CjEKCkNvbm5lY3QKMAo5OTk5CmRhelFBZz09Cg==|3","Token":"V8rd3NCMScoEDC8ELstNQfI8YJJklLj6nDwaAJ5SK6lmXhX4MSTCMMPvXRq7GjASS0g\/wYlozTT\/HEdDTGRcsdqzFlF\/MiUF\/ZlN7q8iV96qpGVZ5eA9TVRVcVFZA+wQ6t2nP6dnGmbWiWD6V1823X7g2\/+7nJXnDXtolTzRY2M=|77u\/TzlqZWlqb200Y2kxSmFsR3pnMlMKOTk5OQoxMTQ0ODk2CjlWclBBZz09Ci9XSFBBZz09CjAKCkNvbm5lY3QKMAo5OTk5CjljL2hBZz09Cg==|3","TokenDurationMinutes":30}}
